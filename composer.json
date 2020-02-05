@@ -1,0 +1,24 @@
+{
+  "name": "deonthomasgy/laravel-queue-rabbitmq",
+  "version": "4.2.1",
+  "description": "RabbitMQ driver for Laravel Queue",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Deon Thomas",
+      "email": "deon.thomas.gy@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "4.2.*@dev",
+    "illuminate/queue": "4.2.*@dev",
+    "php-amqplib/php-amqplib": "2.5.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "VladimirYuldashev\\LaravelQueueRabbitMQ": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
